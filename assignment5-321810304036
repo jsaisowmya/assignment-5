@@ -1,0 +1,62 @@
+import math#area of circle
+rad=5
+area=math.pi*rad**2
+print(area)
+
+import math#area of regular polygon
+a=7
+p=48
+area=1/2*a*p
+print(area)
+
+import math#area of segment of a circle
+rad=45
+degree=30
+area=(math.pi)*(rad*rad)*(degree/360)
+print(area)
+
+import random#shffle the list
+list=[100,1,2,3,30,40,"hai","hello"]
+random.shuffle(list)
+print(list)
+
+import random#random number
+print("a random number from range is: ")
+print(random.randrange(1,10000,50))
+
+#math functions
+import math
+a=math.sin(60)
+print(a)
+
+b=math.pi#cos(pi)
+a=math.cos(b)
+print(a)
+
+a=math.tan(90)
+print(a)
+
+a=math.sqrt(400)#square root
+print(a)
+
+a=math.degrees(0.8660254037844386)#angle of sin
+b=math.sin(a)
+print(a)
+
+a=math.pow(5,8)#power
+print(a)
+
+e=math.e #power e
+a=math.pow(5,e)
+print(a)
+ 
+a=math.log2(1024)
+print(a)
+
+a=math.log10(1024)
+print(a)
+
+a=math.floor(23.56)
+b=math.ceil(23.56)
+print(a)
+print(b)
